@@ -11,6 +11,8 @@
     "start": "webpack --watch"
   },
   "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "css-loader": "^6.7.3",
     "json5": "^2.2.2",

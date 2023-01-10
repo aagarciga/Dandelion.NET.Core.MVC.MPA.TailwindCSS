@@ -5,7 +5,23 @@ module.exports = {
         preflight: true
     },
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                "international-orange": '#FF4F00',
+                primary: {
+                    DEFAULT: '#FF4F00'
+                }
+            },
+            screens: {
+                sm: "640px",
+                md: "768px",
+                lg: "1024px",
+                "2xl": "1536px"
+            }
+        },
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography'),
+        require('@tailwindcss/line-clamp')
+    ],
 };

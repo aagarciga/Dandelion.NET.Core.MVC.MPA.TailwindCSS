@@ -5,4 +5,8 @@
 ## Initializing tailwind
 `npx tailwindcss init`
 
+### Adding TailwindCSS plugins
+
+`yarn add -D @tailwindcss/line-clamp @tailwindcss/typography`
+
 
